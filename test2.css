@@ -1,0 +1,188 @@
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #f6f6f6;
+}
+.testimonials .mainHeading{
+    font-family: lato;
+    font-size: 48px;
+    color: #071a52;
+    text-align: center;
+    font-weight: 800;
+}
+.testimonials .subHeading{
+    text-align: center;
+    color: #a2a2a2;
+}
+.testMainContainer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* video column */
+.vidCol{
+    height: 400px;
+    /* padding-bottom: 100px; */
+    /* border: 2px solid red; */
+}
+
+
+/* review */
+.reviewCol{
+    /* border: 2px solid red; */
+    padding-bottom: 50px;
+}
+.review{
+    /* height: 157.5px; */
+    /* height: 157.5px; */
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-bottom: 60px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.reviewTop{
+
+}
+.reviewTop p{
+    color: #656d85;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.reviewBottom{
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    position: absolute;
+    /* bottom: -50px; */
+    width: 100%;
+    left: 0;
+    bottom: -42px;
+}
+.reviewBottom .reviewBottomImg{
+}
+.reviewBottom .reviewBottomImg img{
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.reviewBottomUser{
+    /* margin-top: -15px; */
+    margin-left: auto;
+    text-align: right;
+}
+.greenStar{
+    color: #17b978;
+}
+
+.certification{
+    text-align: center;
+}
+.cerAff{
+    text-align: center;
+    font-family: lato;
+    font-size: 40px;
+    color: #2e469e;
+    text-align: center;
+    font-weight: 700;
+}
+.cerImg{
+    padding-top: 30px;
+}
+.cerImg img{
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+/* Bootstrap container x-large screen size */
+@media only screen and (max-width: 1200px) {
+
+    /* video column */
+    .vidCol{
+        height: 450px;
+    }
+    .reviewTop{
+        padding-bottom: 20px;
+    }
+    .reviewTop p{
+        color: #656d85;
+        font-weight: 700;
+        padding-bottom: 100px;
+    }
+    .reviewBottom{
+
+    }
+    .reviewBottomUser{
+        margin-top: -15px;
+    }
+
+
+}
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+
+    .reviewCol{
+        margin-top: 30px;
+    }
+
+}
+
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+
+}        
+
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+   
+    .reviewTop p{
+        color: #656d85;
+        font-weight: 700;
+        padding-bottom: 0px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .reviewBottom{
+        /* border: 2px solid red; */
+        margin-top: 0px;
+        /* bottom: -50px; */
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    .reviewBottomUser{
+        /* margin-top: -15px; */
+        margin-left: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .cerImg img{
+        /* margin-bottom: 50px; */
+        /* width: 50%;
+        height: 50%; */
+    }
+    .lImg{
+        /* width: 50px; */
+        /* height: 10px; */
+    }
+
+}
+
+
+/* Bootstrap Container Extra small Size Screen */
+@media only screen and (max-width: 410px) {
+    .cerImg{
+        padding-top: 30px;
+    }
+    .cerImg img{
+        margin-bottom: 50px;
+        height: 50px;
+    }
+}

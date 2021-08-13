@@ -1,0 +1,238 @@
+.phil{
+    text-align: center;
+    background-image: url("phil-back.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    padding: 50px;
+    padding-bottom: 400px;
+}
+.phil h2{
+
+}
+
+.philBot{
+    text-align: center;
+    width: auto;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.473);
+}
+
+.philBotTxt{
+    background-color: #17b978;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: -50px;
+    padding-top: 10px;
+}
+.phil-txt{
+    font-size: 35px;
+    color: white;
+}
+.sep{
+    font-weight: 700;
+    color: #ffe17d;
+}
+.phileLine{
+    background-color: #17b978;
+    height: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.philVid{
+    padding-top: 100px;
+}
+.philBot .container{
+}
+.philBot .row{
+}
+.frame{
+}
+.philBot iframe{
+    height: 280px;
+    width: 100%;
+}
+
+
+
+/* MEDIA QUERY */
+
+
+/* Bootstrap container x-large screen size */
+@media only screen and (max-width: 1200px) {
+
+    .philBotTxt{
+        background-color: #17b978;
+        padding-bottom: 10px;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 50px;
+        margin-top: -50px;
+        padding-top: 10px;
+    }
+    .phil-txt{
+        font-size: 25px;
+        color: white;
+    }
+    .sep{
+        font-weight: 600;
+        color: #ffedb4;
+    }
+    .philBot iframe{
+        height: 200px;
+        width: 100%;
+    }
+
+}
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+
+    .philBotTxt{
+        background-color: #17b978;
+        padding-bottom: 8px;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 50px;
+        margin-top: -50px;
+        padding-top: 8px;
+    }
+    .phil-txt{
+        font-size: 25px;
+        color: white;
+    }
+    .sep{
+        font-weight: 500;
+        color: #ffedb4;
+    }
+    .philBot iframe{
+        height: 170px;
+        width: 100%;
+    }
+
+}
+
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+
+    .philBotTxt{
+        background-color: #17b978;
+        padding-bottom: 5px;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 50px;
+        margin-top: -50px;
+        padding-top: 5px;
+    }
+    .phil-txt{
+        font-size: 25px;
+        color: white;
+    }
+    .sep{
+        font-weight: 500;
+        color: #ffedb4;
+    }
+    .philBot iframe{
+        height: 280px;
+        width: 100%;
+    }
+}        
+
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+    .phil{
+        padding-bottom: 500px;
+    }
+    .philBotTxt{
+        background-color: #17b978;
+        padding-bottom: 3px;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 50px;
+        margin-top: -40px;
+        padding-top: 0px;
+    }
+    .phil-txt{
+        font-size: 20px;
+        color: white;
+    }
+    .sep{
+        font-weight: 400;
+        font-size: smaller;
+        color: #ffedb4;
+    }
+    .philBot iframe{
+        height: 250px;
+        width: 100%;
+    }
+    .philBot{
+        margin-top: 50px;
+    }
+    .philBotTxt{
+        padding: 5px;
+        padding-top: 0;
+    }
+    .philBotTxt{}
+    .phil-txt{
+        font-size: 15px;
+        color: white;
+    }
+}
+
+/* Bootstrap Container Extra small Size Screen */
+@media only screen and (max-width: 410px) {
+
+
+    .philBot{
+        text-align: center;
+        width: auto;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        margin-top: 0px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.473);
+    }
+    .philBotTxt{
+        background-color: #17b978;
+        padding-bottom: 10px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 50px;
+        margin-top: -50px;
+        padding-top: 10px;
+    }
+    .phil-txt{
+        font-size: 15px;
+        color: white;
+    }
+    .sep{
+        font-weight: 500;
+        color: #ffedb4;
+    }
+    .philBot{
+        margin-top: 50px;
+    }
+    .philBotTxt{
+        padding: 5px;
+        padding-top: 0;
+    }
+    .philBotTxt{}
+    .phil-txt{
+        font-size: 15px;
+        color: white;
+    }
+}

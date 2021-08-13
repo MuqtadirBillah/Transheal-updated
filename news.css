@@ -1,0 +1,56 @@
+.news{
+    text-align: center;
+    background-color: #343a90;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.line{
+    height: 20px;
+    background-color: #ffe17d;
+    margin-bottom: 50px;
+}
+.news h1{
+    margin-bottom: 100px;
+    color: white;
+    font-family: lato;
+}
+.card-col{
+    padding: 30px 30px;
+}
+.news .card-div{
+    margin: 0 auto;
+    padding: 0;
+}
+.news .card-div .card{
+    padding: 20px 10px;
+    padding-top: 40px;
+    border-radius: 10px;
+    border-top-right-radius: 80px;
+}
+.news .card-div .card .card-body .card-title{
+    color: #17b978;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.news .card-div .card .card-body .card-text{
+    color: #a6a6a6;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.news .card-div .card .card-body .card-link{
+    color: #17b978;
+    font-weight: 700;
+    border: 3px solid #17b978;
+    border-radius: 50px;
+    font-size: 13px;
+    padding: 10px 30px;
+}
+.news .card-div .card .card-body .card-link:hover{
+    color: white;
+    font-weight: 700;
+    border: 3px solid #17b978;
+    border-radius: 50px;
+    font-size: 13px;
+    padding: 10px 30px;
+    background-color: #17b978;
+}

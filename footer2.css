@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+.footer{
+    background-color: #cdcdcd;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer .footerLeftCol{
+    text-align: center;
+
+}
+.footer .footerLeftCol img{
+    width: 100px;
+}
+
+
+/* footerRightCol */
+.footerRightCol{
+    text-align: center;
+}
+.signHead{
+    font-weight: 700;
+    padding-top: 10px;
+    color: #5c5c5c;
+}
+.footerLeftCol p{
+    margin-top: 20px;
+}
+.newsIn{
+    border: 0px;
+    background-color: #bdbdbd;
+    padding: 10px 30px;
+}
+.submitBut{
+    border: 0px;
+    background-color: #db3838;
+    color: white;
+    padding: 10px 30px;
+}
+.submitBut:hover{
+    border: 0px;
+    background-color: #c22525;
+    color: white;
+    padding: 10px 30px;
+}
+
+/* footerRightBot */
+.footerRightBot{
+    text-align: left;
+    padding-top: 50px;
+    color: #5f5f5f;
+}
+.arIcon{
+    padding-right: 10px;
+}
+.footerRightBot h6{
+    color: #5f5f5f;
+    font-weight: 700;
+}
+.footerRightBot p{
+    color: #5f5f5f;
+    font-weight: 500;
+}
+.footLink p{
+    font-size: small;
+}
+.copyright{
+    color: #444444;
+    font-size: small;
+}
+
+
+
+/* Bootstrap container x-large screen size */
+@media only screen and (max-width: 1200px) {
+    .footer .container{
+        padding: 0;
+    }
+    .footerRightCol .row{
+        padding: 0;
+    }
+    .footerNews{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .footer .newsIn{
+        width: 65%;
+    }
+}
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+
+
+}
+
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+
+}        
+
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+   
+}
+
+/* Bootstrap Container Extra small Size Screen */
+@media only screen and (max-width: 410px) {
+    .footerLeftCol p{
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+}
+

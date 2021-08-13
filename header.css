@@ -1,0 +1,522 @@
+body{
+    margin: 0;
+    background-color: #f6f6f6;
+}
+input:focus{
+    outline: none;   
+}
+.button:focus{
+    outline: none;
+}
+select:visited{
+    box-shadow: none;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.sign{
+    padding: 10px 10px;
+    padding-left: 30px;
+}
+.signIn-heading{
+    font-weight: 500;
+}
+.signIn-but{
+    background-color: #db3838;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+}
+.signIn-but:hover{
+    background-color: #c03232;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+}
+.signUp-heading{
+    font-weight: 600;
+    margin-top: 30px;
+}
+.signUp-but{
+    background-color: #db3838;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+}
+.signUp-but:hover{
+    background-color: #c03232;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+}
+
+/* ------------------------------------------------------------- */
+
+/* header styling */
+.header{
+}
+
+.header-fas{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* header left styling */
+.headerLeft{
+    padding: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-left: 500px;
+    background-image: url("header-back-image.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    height: 800px;
+}
+.navbar{
+    margin: 0;
+    background-color: rgba(255, 0, 0, 0);
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.button:focus{
+    outline:0;
+}
+.navbar .navbar-brand{
+    margin-left: 10px;
+    background-color: white;
+    padding: 3px;
+    padding-top: 0;
+    box-shadow: 5px 3px 5px 2px rgba(0, 0, 0, 0.3);
+    margin-left: 50px;
+}
+.navbar .navbar-brand img{
+    width: 100px;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    border-top: 0px;
+}
+.navbar .navbar-collapse{
+    position:relative;
+    top: 0px;
+}
+.navbar-nav button{
+    color: white;
+    background-color: #1a8a4a;
+}
+.navbar-nav select{
+    color: white;
+    background-color: #1a8a4a;
+    border-radius: 5px;
+    padding: 5px;
+}
+.navbar ul{
+    padding-left: 0px;
+    margin: 0 auto;
+}
+.navbar ul li{
+
+}
+.navbar ul a{
+    color: #1a8a4a;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+.navbar ul a:hover{
+    border-bottom: 3px solid #1a8a4a;
+}
+.navbar ul .topArrow a:hover{
+    border: 0;
+    color: #136b39;
+}
+.navbar ul .active{
+    border-bottom: 3px solid #1a8a4a;
+}
+.navbar ul .active:hover{
+    border-bottom: 0px;
+}
+.nav-item button{
+    padding:10px 30px;
+    border-radius: 1px;
+    background-color: #db3838;
+    color: white;
+    /* margin-top: -5px; */
+    border: 0px;
+    font-weight: 600;
+    border: 3px solid #db3838;
+    display: block;
+}
+.nav-item button:hover{
+    border: 3px solid #db3838;
+    background-color: white;
+}
+.nav-item select{
+    border: 0px;
+    padding:11px 30px;
+    border-radius: 1px;
+    background-color: #db3838;
+    color: white;
+    font-weight: 600;
+    /* margin-top: 5px; */
+    padding-right: 20px;
+    border: 3px solid #db3838;
+    border-bottom: 2px solid #db3838;
+}
+.hiddenNavItem{
+    display: none;
+}
+
+.logNav{
+    display: none;
+}
+.logNav{
+    margin: 0 auto;
+}
+.logNav button{
+    padding:10px 30px;
+    border-radius: 1px;
+    background-color: #db3838;
+    color: white;
+    /* margin-top: -5px; */
+    border: 0px;
+    font-weight: 600;
+    border: 3px solid #db3838;
+    display: block;
+}
+.logNav button:hover{
+    border: 3px solid #db3838;
+    background-color: white;
+}
+.logNav select{
+    border: 0px;
+    padding:10px 30px;
+    border-radius: 1px;
+    background-color: #db3838;
+    color: white;
+    font-weight: 600;
+    /* margin-top: 5px; */
+    padding-right: 20px;
+    border: 3px solid #db3838;
+}
+.logNav select:hover{
+    border: 3px solid #db3838;
+    background-color: white;
+}
+.logNav select .opt:hover{
+    border: 3px solid #db3838;
+    background-color: green;
+}
+.circleImg{
+    margin-top: 100px;
+}
+.circleImg img{
+    width: 500px;
+    position: absolute;
+    right: 0;
+    right: -250px;
+    z-index: 3;
+}
+.headerTxt{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.headerTxt h1{
+    font-size: 70px;
+    color: #343a90;
+    font-weight: 700;
+}
+.headerTxt h2{
+    font-size: 40px;
+    color: black;
+}
+
+/* header right styling */
+.headerRight{
+    background-color: #343a90;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+.logR{
+    margin: 0;
+}
+.logR button{
+    padding:10px 30px;
+    border-radius: 1px;
+    background-color: #db3838;
+    color: white;
+    /* margin-top: -5px; */
+    border: 0px;
+    font-weight: 600;
+    border: 3px solid #db3838;
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+.logR select{
+    border: 0px;
+    padding:10px 30px;
+    border-radius: 1px;
+    background-color: #db3838;
+    color: white;
+    font-weight: 600;
+    /* margin-top: 5px; */
+    padding-right: 20px;
+    border: 3px solid #db3838;
+    width: 200px;
+}
+.footLink{
+}
+.footLink a{
+    text-decoration: none;
+    color: #757575;
+}
+.footLink a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Media query */
+
+
+/* for navbar */
+@media only screen and (max-width: 1310px) {
+    
+    .navbar ul a{
+        font-size: x-small;
+    }
+
+}
+
+
+/* Bootstrap container x-large screen size */
+@media only screen and (max-width: 1200px) {
+    
+    .headerTxt h2{
+        /* color: green; */
+        font-size: 30px;
+    }
+    .headerTxt{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .navbar{
+        background-color: white;
+    }
+    .navbar ul{
+        margin-left: 10px;
+    }
+    .navbar ul a{
+        font-size: medium;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar .navbar-brand{
+        margin-left: 00px;
+    }
+    .navbar ul a:hover{
+        font-size: medium;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #1a8a4a;
+    }
+    .navbar button{
+        margin-top: 10px;
+    }
+    .navbar select{
+        margin-bottom: 20px;
+    }
+    .circleImg img{
+        width: 350px;
+        position: absolute;
+        right: 0;
+        right: -175px;
+        z-index: 3;
+    }
+    .navbar ul a{
+        font-size: xx-small;
+    }
+
+}
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+
+    
+    .headerTxt h2{
+        font-size: 40px;
+    }
+    .circleImg{
+        display: none;
+    }
+    .headerTxt{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .circleImg img{
+        width: 300px;
+        position: absolute;
+        right: 0;
+        right: -150px;
+        z-index: 3;
+    }
+    .headerRight{
+        display: none;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar{
+        padding: 0 !important;
+        text-align: left;
+        padding-bottom: 10px;
+        background-color: white;
+    }
+    .navbar .navbar-collapse{
+        background-color: #fbfbfb96;
+        margin-top: 50px;
+        height: 100vh;
+    }
+    .navbar ul{
+        margin-left: 00px;
+        text-align: center;
+    }
+    .navbar ul .active{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar ul a{
+        font-size: medium;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #1a8a4a;
+    }
+    .navbar ul .topArrow a{
+        border-bottom: 0px solid #1a8a4a;
+        display: none;
+    }
+    .navbar button{
+        margin-top: 10px;
+    }
+    .navbar select{
+        margin-bottom: 20px;
+    }
+    .navbar ul .active{
+        border-bottom: 0;
+        color: rgb(153, 255, 0);
+    }
+    .navbar ul .active a{
+        text-decoration: underline;
+    }
+}
+
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+
+    .navbar .navbar-brand{
+        margin-left: 00px;
+    }
+    .headerTxt h2{
+        font-size: 40px;
+    }
+    .topArrow{
+        display: none;
+    }
+    .navbar ul{
+        text-align: center;
+    }
+    /* .hiddenNavItem{
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .nav-item button{
+        width: 500px;
+        margin-bottom: 10px;
+    }
+    .nav-item button:hover{
+        color: #db3838;
+    }
+    .nav-item select{
+        width: 500px;
+        margin-bottom: 10px;
+    } */
+    
+}        
+
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+   
+    
+    .navbar .navbar-brand{
+        margin-left: 00px;
+    }
+    .headerTxt h1{
+        font-size: 50px;
+        color: #343a90;
+        font-weight: 700;
+    }
+    .headerTxt h2{
+        font-size: 35px;
+        color: black;
+    }
+}
+
+/* Bootstrap Container Extra small Size Screen */
+@media only screen and (max-width: 410px) {
+    
+    .navbar{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .navbar-brand{
+        margin-left: 00px;
+        /* padding: 3px; */
+        padding-top: 0;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgba(255, 0, 0, 0);
+        box-shadow: 0px 0px 0px 0px red;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .navbar .navbar-brand img{
+        width: 150px;
+        padding: 0px;
+        border: 0px solid rgba(255, 255, 255, 0.411);
+        border-top: 0px;
+    }
+    /* header left styling */
+    .headerLeft{
+        padding: 0;
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-left: 00px;
+        background-image: url("header-back-image.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+        height: auto;
+    }
+    .headerTxt{
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

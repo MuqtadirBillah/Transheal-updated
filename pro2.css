@@ -1,0 +1,165 @@
+.products{
+    padding: 30px 0;
+    background-color: #fbfbfb;
+    margin-top: 100px;
+}
+.disHead{
+    font-weight: 700;
+    font-size: large;
+    color: #17b978;
+}
+.ourProd{
+    font-weight: 700;
+}
+.container{
+}
+.prodHead h1{
+    display: inline-block;
+}
+.fil{
+    text-align: right;
+    margin-top: 30px;
+}
+.fil-icon{
+    color: #17b978;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.grid{
+    color: #17b978;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.pro{
+    padding: 50px 0;
+}
+.pro .card{
+    text-align: center;
+    background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(213,213,213,1) 51%, rgba(134,134,134,1) 100%);
+    padding: 20px 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+.pro .card img{
+    width: 150px;
+}
+.pro .card .card-body{
+    line-height: 10px;
+}
+.pro .card .card-body hr{
+    margin: 0;
+    height: 2px;
+    background-color: white;
+}
+.pro .card .card-body .card-text{
+    font-weight: 700;
+}
+.pro .card .card-body .row{
+}
+.pro .card .card-body .row .pricee{
+    padding: 0 !important;
+    margin-top: 5px;
+}
+.price{
+    text-align: left;
+}
+.priceNum{
+    font-size: small;
+    font-weight: 700;
+    line-height: 20px;
+}
+.star{
+    font-size: x-small;
+}
+.yellowStar{
+    color: #ffc861;
+}
+.colorlessStar{
+    color: white;
+}
+.cart{
+    text-align: right;
+}
+.addCartBut{
+    font-size: x-small;
+    color: white;
+    padding: 5px 10px;
+    background-color: #db3838;
+    border: 0px;
+    margin-top: 20px;
+}
+.addCartBut:hover{
+    background-color: #c22525;
+}
+.browseProducts{
+    background-color: #db3838;
+    color: white;
+    padding: 10px 20px;
+    border: 0px;
+}
+.browseProducts:hover{
+    background-color: #c22525;
+}
+
+
+/* Bootstrap container x-large screen size */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+
+
+}
+
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+    
+    .pro .card{
+        text-align: center;
+        background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(213,213,213,1) 51%, rgba(134,134,134,1) 100%);
+        padding: 20px 5px;
+        padding-bottom: 5px;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: left;
+        color: white;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        border-top: 1px solid rgb(224, 224, 224);
+    }
+}        
+
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+   
+}
+
+/* Bootstrap Container Extra small Size Screen */
+@media only screen and (max-width: 410px) {
+   
+    .product-col{
+        padding: 0;
+    }
+    .pro .card{
+        text-align: center;
+        background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(213,213,213,1) 51%, rgba(134,134,134,1) 100%);
+        padding: 20px 0px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+        color: white;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        border-top: 1px solid rgb(224, 224, 224);
+    }
+}
